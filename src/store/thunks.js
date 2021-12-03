@@ -1,7 +1,7 @@
 import { questionAction } from "./questionSlice";
 import { usersAction } from "./usersSlice";
 import { authActions } from "./authUserSlice";
-import * as API from "../utils/_DATA"
+import * as API from "../util/_DATA"
 
 // fetch all data when app load
 export const fetchAllData = () => {
