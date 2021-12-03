@@ -1,0 +1,27 @@
+.card {
+    height: 300px;
+    width: 500px;
+    color: #b90236;
+}
+
+.card p{
+    font-size: 12pt;
+    text-transform: capitalize;
+
+}
+
+.card input {
+    width: 100%;
+    height: 2rem;
+}
+
+.card button {
+    width: 100%;
+    height: 2.3rem;
+    border: none;
+    outline: none;
+    background-color: #b90236;
+    color: white;
+    font-size: 12pt;
+}
+

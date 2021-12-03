@@ -1,0 +1,17 @@
+.outer{
+    height: 3rem;
+    width: 100%;
+    background-color: #b90236;
+}
+
+.inner{
+    height: 100%;
+    width: 50px;
+    background-image:linear-gradient(to right,#b90236, #fc0047, #b90236 ) ;
+    animation: loading 1s linear  infinite;
+}
+
+@keyframes loading {
+    from {transform: translateX(0);}
+    to{ transform: translateX(100vw);}
+}

@@ -1,0 +1,26 @@
+.home {
+  padding: 0;
+  width: 550px;
+  padding-bottom: 00.5em;
+}
+
+.buttons {
+    padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.buttons button {
+  border: 2px solid #b90236;
+  color: #b90236;
+  background-color: white;
+  text-transform: capitalize;
+  width: 40%;
+  border-radius: 50px;
+}
+
+.buttons .active {
+  background-color: #b90236;
+  color: white;
+  transform: scale(0.95);
+}

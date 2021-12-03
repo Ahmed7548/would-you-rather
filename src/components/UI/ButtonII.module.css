@@ -1,0 +1,12 @@
+.show{
+    background-color: white;
+    color: #b90236;
+    border: 1px solid #b90236;
+    border-radius:5px ;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.show:hover {
+    background-color: #d65d5d;
+    color: white;
+}

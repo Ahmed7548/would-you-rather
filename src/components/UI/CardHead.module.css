@@ -1,0 +1,9 @@
+.name{
+    height: 2rem;
+    width: 100%;
+    background-color: #d65d5d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

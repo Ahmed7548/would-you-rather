@@ -1,0 +1,16 @@
+.error{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: gray;
+}
+
+.error h1 {
+    text-transform: capitalize;
+    margin: 1em 1em 1em 0;
+}
+
+.error p{
+    font-size: 14pt;
+}

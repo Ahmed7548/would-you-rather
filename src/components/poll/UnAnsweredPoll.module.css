@@ -1,0 +1,26 @@
+.poll {
+  padding: 0;
+  padding-bottom: 0.5rem;
+  width: fit-content;
+}
+
+.poll form {
+  height: 300px;
+  width: 70%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.poll form div label {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

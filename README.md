@@ -2,9 +2,17 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Description 
 
+This App is a simple would you rather game where you ask would you rather questions and answer ones to go 
+higher in score.
+
+## Available Scripts
 In the project directory, you can run:
+
+### `npm install` 
+
+Downloads all neaded dependencies listed in package.json file
 
 ### `npm start`
 

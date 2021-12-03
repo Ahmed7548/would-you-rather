@@ -1,0 +1,47 @@
+.loggin{
+    height: 400px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-25%);
+    z-index: 10;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: space-between;
+}
+
+.loggin div h1{
+    color: #395f7c;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0.2em;
+}
+
+.loggin div p {
+    color: #395f7c;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.loggin form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.loggin button {
+    width: 70%;
+    height: 3em;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: #b90236;
+    cursor: pointer;
+}
+
+.loggin button:hover{
+    background-color:#c90039 ;
+}
