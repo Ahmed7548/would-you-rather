@@ -12,7 +12,7 @@ const PollHome = (props) => {
     const user = useSelector(state => state.users.users).find(user => user.id === question.author)
 
     const goToQuestion = () => {
-        navigat(`/question/:${question.id}`)
+        navigat(`/question/${question.id}`)
     }
     
 

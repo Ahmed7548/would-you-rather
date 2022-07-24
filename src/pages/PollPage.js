@@ -8,7 +8,7 @@ import UnAnsweredPoll from "../components/poll/UnAnsweredPoll";
 const PollPage = () => {
   const { questionId: id } = useParams();
   // the id without :
-  const questionId = id.substr(1);
+  const questionId = id
   //the question to be rendered
   const question = useSelector((state) => state.questions.questions).find(
     (question) => question.id === questionId

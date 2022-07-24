@@ -10,6 +10,7 @@ import LeaderBoard from './pages/LeaderBoard';
 import NewPollPage from './pages/NewPollPAge';
 import {fetchAllData} from "./store/thunks"
 import PollPage from './pages/PollPage';
+import BurgerIcon from './components/UI/BurgerIcon';
 
 function App() {
   const loggedIn = useSelector(state => state.authUser.logged)

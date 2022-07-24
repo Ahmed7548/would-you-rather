@@ -5,15 +5,15 @@ const Nav = (props) => {
 
     return (
         <nav className={props.className}>
-        <ul className={classes["nav-list"]}>
+        <ul className={`flex ${classes["nav-list"]} nav-list`}>
             <li>
-                <NavLink to="/home" className={({isActive})=>isActive?classes.active:""} >Home</NavLink>
+                <NavLink to="/home" className={({isActive})=>isActive?'active':""} >Home</NavLink>
             </li>
             <li>
-                <NavLink to="/add" className={({isActive})=>isActive?classes.active:""} >new question</NavLink>
+                <NavLink to="/add" className={({isActive})=>isActive?'active':""} >new question</NavLink>
             </li>
             <li>
-                <NavLink to="/leaderboard"  className={({isActive})=>isActive?classes.active:""} >leader board</NavLink>
+                <NavLink to="/leaderboard"  className={({isActive})=>isActive?'active':""} >leader board</NavLink>
             </li>
         </ul>
     </nav>
